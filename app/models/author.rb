@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  validates :name, length: { minimum: 2}, uniqueness: true
+  validates :name, length: { minimum: 10}, uniqueness: true
 end
